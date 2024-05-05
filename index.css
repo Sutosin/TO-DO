@@ -1,0 +1,51 @@
+/* Example CSS styles (customize as needed) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    /* padding: 8px; */
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 20px;
+    margin-right: 50px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+    
+  }
+  
